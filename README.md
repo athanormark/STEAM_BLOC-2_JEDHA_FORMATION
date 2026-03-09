@@ -31,7 +31,7 @@ Realise pour le compte d'**Ubisoft**, ce projet analyse le marche (~55 000 jeux)
 
 | Livrable | Description | Lien |
 |----------|-------------|------|
-| `STEAM_PROJECT.py` | Notebook PySpark — EDA complete (ETL + Macro + Genres + Plateformes) | [Voir le notebook publie]() |
+| `STEAM PROJECT.ipynb` | Notebook PySpark — EDA complete (ETL + Macro + Genres + Plateformes) | [Voir le notebook publie]() |
 
 > **Dashboard** : Le dashboard interactif Databricks sera presente en direct au jury lors de la soutenance.
 
@@ -65,8 +65,8 @@ Realise pour le compte d'**Ubisoft**, ce projet analyse le marche (~55 000 jeux)
 ## 📂 Structure du Projet
 
 ```
-STEAM-_-BLOC-2_JEDHA_FORMATION/
-├── STEAM_PROJECT.py   # Notebook Databricks (format natif PySpark)
+STEAM_BLOC-2_JEDHA_FORMATION/
+├── STEAM PROJECT.ipynb   # Notebook Databricks (EDA complete avec visualisations)
 ├── .gitignore
 └── README.md
 ```
