@@ -1,0 +1,22 @@
+# Donnees volumineuses (ne pas pousser sur GitHub)
+data/
+assets/
+*.csv
+*.json
+
+# Environnement Python
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
