@@ -1,12 +1,12 @@
 # Projet Steam - Analyse exploratoire du marché des jeux vidéo
 
-[!\[Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat\&logo=python\&logoColor=fff)](#)
-[!\[PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat\&logo=apachespark\&logoColor=fff)](#)
-[!\[Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat\&logo=databricks\&logoColor=fff)](#)
-[!\[AWS S3](https://img.shields.io/badge/AWS\_S3-569A31?style=flat\&logo=amazons3\&logoColor=fff)](#)
-[!\[JEDHA](https://img.shields.io/badge/JEDHA-blueviolet?style=flat)](#)
+[![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat&logo=python&logoColor=fff)](#)
+[![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=fff)](#)
+[![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=fff)](#)
+[![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat&logo=amazons3&logoColor=fff)](#)
+[![JEDHA](https://img.shields.io/badge/JEDHA-blueviolet?style=flat)](#)
 
-\---
+---
 
 ## About
 
@@ -21,15 +21,15 @@ Réalisé dans le cadre du Bootcamp JEDHA (Bloc 2 - Analyse exploratoire), ce tr
 
 Notebook publié sur Databricks : [Accéder au notebook](https://dbc-aee66932-a472.cloud.databricks.com/editor/notebooks/4187387358815532?o=7474647452050182)
 
-\---
+---
 
 ## Dataset
 
 * Source : fichier JSON semi-structuré hébergé sur AWS S3 (Data Lake Jedha)
 * Volume : \~55 000 jeux avec prix, genre, éditeur, développeur, notes, plateformes, langues et date de sortie
-* Accès : `s3://full-stack-bigdata-datasets/Big\_Data/Project\_Steam/steam\_game\_output.json`
+* Accès : `s3://full-stack-bigdata-datasets/Big_Data/Project_Steam/steam_game_output.json`
 
-\---
+---
 
 ## Installation
 
@@ -41,7 +41,7 @@ Pour une exécution locale, installer PySpark :
 pip install pyspark
 ```
 
-\---
+---
 
 ## Pipeline
 
@@ -70,7 +70,7 @@ Stack technique :
 |AWS S3|Data Lake, stockage de la source JSON|
 |Python|Langage principal, fonctions natives (`builtins.round`)|
 
-\---
+---
 
 ## Résultats
 
@@ -80,7 +80,7 @@ Stack technique :
 * Les genres Action et Indie dominent en volume, tandis que Simulation et Strategy affichent les prix moyens les plus élevés.
 * Seule une faible proportion du catalogue est en promotion à un instant donné.
 
-\---
+---
 
 ## Limites
 
@@ -90,7 +90,7 @@ Stack technique :
 * Biais de survie : le catalogue ne contient que les jeux encore référencés sur Steam. Les titres retirés de la vente (delisted) sont absents, ce qui peut fausser les statistiques.
 * Granularité tarifaire limitée : les prix promotionnels ne sont captés qu'à l'instant de l'extraction. L'historique des réductions et la fréquence des soldes ne sont pas disponibles.
 
-\---
+---
 
 ## Conclusion
 
@@ -105,19 +105,19 @@ Recommandations pour Ubisoft :
 * Adapter la stratégie tarifaire au genre : positionner les titres Simulation et Strategy sur une gamme de prix premium, et les titres Action ou Aventure sur des prix compétitifs alignés avec la densité de l'offre concurrente.
 * Exploiter les périodes de forte activité pour planifier les sorties majeures, en s'appuyant sur l'analyse des volumes de publication par année et par trimestre.
 
-\---
+---
 
 ## Structure du projet
 
 ```
-STEAM\_BLOC-2\_JEDHA\_FORMATION/
+STEAM_BLOC-2_JEDHA_FORMATION/
 ├── STEAM PROJECT.ipynb    # Notebook PySpark (EDA complète)
 ├── requirements.txt       # Dépendances Python
 ├── .gitignore
 └── README.md
 ```
 
-\---
+---
 
 ## Auteur
 
