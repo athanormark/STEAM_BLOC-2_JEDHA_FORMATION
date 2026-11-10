@@ -1,14 +1,14 @@
 # Projet Steam - Analyse exploratoire du marché des jeux vidéo
 
+> Analyse exploratoire PySpark, sur Databricks, d'environ 55 000 jeux Steam, projet de formation JEDHA.
+
 [![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat&logo=python&logoColor=fff)](#)
 [![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=fff)](#)
 [![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=fff)](#)
 [![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat&logo=amazons3&logoColor=fff)](#)
 [![JEDHA](https://img.shields.io/badge/JEDHA-blueviolet?style=flat)](#)
 
----
-
-## About
+## Contexte et rôle
 
 Ce projet réalise une analyse exploratoire (EDA) du catalogue de jeux vidéo disponibles sur Steam.
 Il répond à la problématique : quels facteurs influencent la popularité et le succès commercial d'un jeu vidéo ?
@@ -20,10 +20,6 @@ Réalisé dans le cadre du Bootcamp JEDHA (Bloc 2 - Analyse exploratoire), ce tr
 * Plateformes : répartition Windows/Mac/Linux, corrélation genre-plateforme
 
 Notebook publié sur Databricks : [Accéder au notebook](https://dbc-aee66932-a472.cloud.databricks.com/editor/notebooks/4187387358815532?o=7474647452050182)
-
----
-
-## Contexte et rôle
 
 Projet de formation du bootcamp JEDHA (Data Fullstack, BLOC 2, analyse exploratoire). L'énoncé, le contexte métier et les données viennent de JEDHA ; Steam est un cas d'étude pédagogique, sans lien avec l'entreprise ni mission réelle.
 
@@ -39,19 +35,7 @@ Ce dépôt rassemble mon travail sur ce cas : analyse exploratoire PySpark sur D
 
 ---
 
-## Installation
-
-Ce notebook est conçu pour être exécuté sur **Databricks** (cluster PySpark). Aucune installation locale n'est requise.
-
-Pour une exécution locale, installer PySpark :
-
-```bash
-pip install pyspark
-```
-
----
-
-## Pipeline
+## Fonctionnalités
 
 |#|Analyse|Question traitée|
 |-|-|-|
@@ -80,6 +64,14 @@ Stack technique :
 
 ---
 
+## Stack
+
+- Langage : Python 3.10
+- Traitement : PySpark, Databricks
+- Source des données : AWS S3
+
+---
+
 ## Résultats
 
 * L'effet COVID est significatif : +20% de sorties en 2020, +24% en 2021 par rapport à 2019.
@@ -87,6 +79,18 @@ Stack technique :
 * L'anglais est la langue incontournable pour une sortie mondiale.
 * Les genres Action et Indie dominent en volume, tandis que Simulation et Strategy affichent les prix moyens les plus élevés.
 * Seule une faible proportion du catalogue est en promotion à un instant donné.
+
+---
+
+## Lancer le projet
+
+Ce notebook est conçu pour être exécuté sur **Databricks** (cluster PySpark). Aucune installation locale n'est requise.
+
+Pour une exécution locale, installer PySpark :
+
+```bash
+pip install pyspark
+```
 
 ---
 
@@ -129,5 +133,4 @@ STEAM_BLOC-2_JEDHA_FORMATION/
 
 ## Auteur
 
-Athanor SAVOUILLAN · [GitHub](https://github.com/athanormark)
-
+Athanor Savouillan · [Réalisations](https://atelia-conseil.com/realisations/) · [GitHub](https://github.com/athanormark)
