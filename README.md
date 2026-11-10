@@ -23,6 +23,14 @@ Notebook publié sur Databricks : [Accéder au notebook](https://dbc-aee66932-a4
 
 ---
 
+## Contexte et rôle
+
+Projet de formation du bootcamp JEDHA (Data Fullstack, BLOC 2, analyse exploratoire). L'énoncé, le contexte métier et les données viennent de JEDHA ; Steam est un cas d'étude pédagogique, sans lien avec l'entreprise ni mission réelle.
+
+Ce dépôt rassemble mon travail sur ce cas : analyse exploratoire PySpark sur Databricks. Les résultats annoncés plus bas sont ceux du notebook du dépôt.
+
+---
+
 ## Dataset
 
 * Source : fichier JSON semi-structuré hébergé sur AWS S3 (Data Lake Jedha)
